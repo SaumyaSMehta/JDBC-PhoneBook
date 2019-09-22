@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="492.0" prefWidth="499.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JDBCApp.FXMLController">
+   <children>
+      <Button fx:id="backButton" layoutX="26.0" layoutY="440.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+      <TextField fx:id="searchBox" layoutX="84.0" layoutY="56.0" prefHeight="25.0" prefWidth="332.0" />
+      <Button fx:id="searchName" layoutX="107.0" layoutY="101.0" mnemonicParsing="false" onAction="#searchName" prefHeight="25.0" prefWidth="286.0" text="Search By Name , PhoneNumber Or Email Address" />
+      <Label fx:id="searchResult" layoutX="24.0" layoutY="160.0" prefHeight="256.0" prefWidth="451.0" text="         " />
+   </children>
+</AnchorPane>
